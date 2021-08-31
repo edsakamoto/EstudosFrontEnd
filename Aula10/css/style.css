@@ -1,0 +1,17 @@
+/*body{
+    background-image: url('../img/wall_1280x720.jpg');
+}*/
+header {
+    background-image: url('../img/wall_1280x720.jpg');
+    height: 720px;
+    width: 1280px;
+    color: white;
+    text-align: center;
+    padding-top: 230px;
+    box-sizing: border-box;
+}
+
+button{
+    border-radius: 10px;
+    text-align: center;
+}
