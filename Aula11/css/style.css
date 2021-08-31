@@ -1,0 +1,64 @@
+/*body{
+    padding:0px;
+    border: black 5px solid;
+    
+}*/
+.caixa{
+    box-sizing: border-box;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: black 5px solid;
+    text-align: center;
+}
+
+.caixaMaior{
+    box-sizing: border-box;
+    background-color: beige;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border: black 5px solid;
+    text-align: left;
+    z-index: -1;
+    
+}
+
+#div1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+#div1-1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#div2{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#div2-1{
+    position: absolute;
+    top: 0%;
+    right: 0%;;
+}
+
+#div3{
+    position: fixed;
+    bottom: 40px;
+    left: 43.9%;
+}
+
+#div3-1{
+    position: fixed;
+    bottom: 0%;
+    left: 41.5%
+}
