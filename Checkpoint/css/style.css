@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+/*font-family: 'Noto Sans JP', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+JP&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+body{    
+    background-color: rgba(180, 29, 29, 0.685);    
+}
+
+.cabecalho{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 50pt;
+    padding-top: 10px;
+}
+
+.container-principal{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    display:flex;
+    align-items: center;
+}
+
+#id1{
+    width: 50%;
+    
+}
+
+.video{
+    margin: 10px auto;
+    width: 1280px;
+    height: 720px;    
+    display: block;
+}
+
+#id2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    position: relative;
+    left: 20%;
+    top:60px;
+    
+    
+}
+
+.container{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+
+#id3{
+    width: 50%;
+    position: relative;
+    left: 18.5%;
+}
+
+footer{
+    position: relative;
+    left: 50%;
+}
