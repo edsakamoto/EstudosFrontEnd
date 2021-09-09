@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>    
+    <form>
+        <fieldset>            
+            <legend>Convite para festa</legend>
+            <div><textarea name="convite" id="comentario" placeholder="Digite seu texto aqui"></textarea></div>
+        </fieldset>
+        <fieldset>
+            <legend>Qual é o seu nome</legend>            
+            <input id="fname" type="text" name="nome" placeholder="Sua resposta">            
+        </fieldset>
+        <fieldset>
+            <legend>Você pode participar?</legend>
+            <div>
+            <input type="radio" id="sim" name="participa-festa" value="sim">
+            <label for="sim"> Sim,participarei</label>
+            </div>
+            <div>
+            <input type="radio" id="nao" name="participa-festa" value="nao">
+            <label for="nao"> Não participarei</label>
+            </div>            
+        </fieldset>
+        <fieldset>
+            <legend>Quantas pessoas comparecerão</legend>
+            <input id="fnumero" type="number" name="numero" placeholder="Sua resposta">            
+        </fieldset>
+        <fieldset>
+            <legend>O que você vai trazer?</legend>
+            <p>Informe os pratos que você trará</p>
+            <div>
+                <input type="checkbox" name="pratos" id="prato_principal" value="PratoPrincipal">
+                <label for="prato_principal"> Prato principal</label>
+            </div>
+            <div>
+                <input type="checkbox" name="pratos" id="salada" value="salada">
+                <label for="salada"> Salada</label>
+            </div>
+            <div>
+                <input type="checkbox" name="pratos" id="sobremesa" value="sobremesa">
+                <label for="sobremesa"> Sobremesa</label>
+            </div>
+            <div>
+                <input type="checkbox" name="pratos" id="bebida" value="bebida">
+                <label for="bebida"> Bebidas </label>
+            </div>
+            <div>
+                <input type="checkbox" name="pratos" id="acompanhamentos/aperitivos" value="acompanhamentos/aperitivos">
+                <label for="acompanhamentos/aperitivos"> Acompanhamentos / Aperitivos</label>
+            </div>
+            <div>
+                <input type="checkbox" name="pratos" id="outros" value="outros">
+                <label for="outros"> Outro: </label>
+                <input type="text" name="foutros" id="outros"> 
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Você tem alguma alergia ou restrição alimentar?</legend>
+            <input type="text" name="frestricao" id="restricao" placeholder="Sua resposta">
+        </fieldset>
+        <fieldset>
+            <legend>Qual é seu endereço de email?</legend>
+            <input type="email" name="femail" id="email" placeholder="Sua resposta">
+        </fieldset>
+    </form>
+    <div id="button">
+        <input type="button" value="Enviar">
+    </div>
+    
+</body>
+</html>
