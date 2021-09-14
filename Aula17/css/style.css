@@ -1,0 +1,48 @@
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin:50px;
+    border-radius:50%;
+}
+
+.circulo:hover{
+    animation: deslizar 5s normal infinite;
+}
+
+@keyframes deslizar{
+    0%{opacity: 0%;}
+    50%{opacity: 100%; transform: translate(400px);}    
+    100%{opacity: 100%;}
+
+}
+
+#money{
+    margin-left: 50%;
+    
+}
+
+.dinheiro:hover{
+    animation: girar 1s normal infinite;
+}
+
+@keyframes girar{
+    0%{opacity: 0%;}
+    50%{opacity: 50%; transform:rotateY(30deg); transform:rotateZ(-15deg) scale(1.5);}    
+    100%{opacity: 100%;}
+}
+
+
+#botao{
+    padding: 20px;
+    background-color: #eaeaea;
+    color: blue;
+    transition: all 1s;
+    
+}
+
+#botao:hover{   
+    background-color: rgb(107, 11, 11);
+    color: rgb(252, 252, 252);
+
+}
