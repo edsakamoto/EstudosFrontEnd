@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+body{
+    background-color: rgba(0,0,0,0.9);
+    font-family: sans-serif;
+    color: white;
+}
+
+h1{
+    display: flex;       
+    justify-content: center;
+    padding: 10px;    
+    border:10px
+}
+
+main{
+    max-width: 70%;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    width: 30%;
+    height: 40vh;
+    padding: 5px;
+    margin: 10px;        
+    display: flex;
+    color:white;
+    flex-direction: column;   
+
+
+}
+
+.card-content{   
+    padding: 5px;
+    flex-grow: 1;    
+}
+
+
+
+.card-titulo-video{
+    margin: 5px 0;
+    font-weight: bold;    
+    
+}
+
+.card-footer{
+    margin: 1px 0;
+    font-size: small;
+    font-weight: lighter;
+    
+}
+
+#img1{
+    background-image: url("../img/img1-reduzido400x300.jpg");    
+    background-repeat: no-repeat;
+}
+
+#img2{
+    background-image: url("../img/img2-reduzido400x300.jpg");    
+    background-repeat: no-repeat;
+}
+
+#img3{
+    background-image: url("../img/img3-reduzido400x300.jpg");
+    background-repeat: no-repeat;
+}
+
+#img4{
+    background-image: url("../img/img4-reduzido400x300.jpg");
+    background-repeat: no-repeat;
+}
+
+#img5{
+    background-image: url("../img/img5-reduzido400x300.jpg");
+    background-repeat: no-repeat;
+}
+
+#img6{
+    background-image: url("../img/img6-reduzido400x300.jpg");
+    background-repeat: no-repeat;
+}
